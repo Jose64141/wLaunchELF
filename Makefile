@@ -72,7 +72,7 @@ cdfs_irx.s: $(PS2SDK)/iop/irx/cdfs.irx
 poweroff_irx.s: $(PS2SDK)/iop/irx/poweroff.irx
 	$(BIN2S) $< $@ poweroff_irx
 
-iomanx_irx.s: $(PS2SDK)/iop/irx/iomanX.irx
+iomanx_irx.s: ./iomanX.irx
 	$(BIN2S) $< $@ iomanx_irx
 
 filexio_irx.s: $(PS2SDK)/iop/irx/fileXio.irx
